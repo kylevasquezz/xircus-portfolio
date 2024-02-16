@@ -4,7 +4,7 @@ import { Box, Text, Heading, Link } from '@chakra-ui/react'
 const About = () => {
   return (
     <Box w="100%" my={20} >
-      <Text fontWeight={500} color="gray.500" align="center">I&apos;M KYLE V</Text>
+      <Text fontWeight={500} color="gray.500" align="center">I&apos;M KYLE</Text>
       <Heading fontWeight={200} align="center" size="2xl" my={5}>About Me</Heading>
 
       <Box bg="gray.700" my={20} py={10}>
