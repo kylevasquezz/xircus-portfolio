@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <VStack bg="gray.700" py={20} paddingBottom={0}>
       <Text fontWeight={500} color="gray.500" align="center">WANT TO WORK?</Text>
-      <Heading fontWeight={200} align="center" size="2xl" my={5}>Let's make a wonderful <br /> website together!</Heading>
+      <Heading fontWeight={200} align="center" size="2xl" my={5}>Let&apos;s make a wonderful <br /> website together!</Heading>
       <Button variant="outline" fontWeight={200} fontSize="sm">Get in touch!</Button>
 
       <HStack

@@ -4,7 +4,7 @@ import { HStack, Image, Stack, Heading, Text, Box } from '@chakra-ui/react'
 const Education = () => {
   return (
     <HStack mx="20%" spacing={20} my={20} justify="center">
-      <Image src="/avatar.jpeg" fallbackSrc="https://via.placeholder.com/300" boxSize="20rem" borderRadius="full" />
+      <Image src="/avatar.jpeg" fallbackSrc="https://via.placeholder.com/300" boxSize="20rem" borderRadius="full" alt='avatar' />
       <Stack spacing={10}>
         <Box>
           <Heading fontWeight={200} size="lg" py={8}>Education</Heading>
