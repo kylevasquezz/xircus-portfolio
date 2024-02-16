@@ -12,14 +12,14 @@ const Navbar = () => {
 
         <HStack direction="row">
           {NAVLINKS.map((link, index) => (
-            <Button variant="ghost" key={index} fontWeight={200} >
+            <Button variant="ghost" key={index} fontWeight={400} >
               {link}
             </Button>
           ))}
         </HStack>
 
         <HStack>
-          <Button variant="outline" fontWeight={200} fontSize="sm">Contact</Button>
+          <Button variant="outline" fontWeight={400} fontSize="sm">Contact</Button>
         </HStack>
       </HStack>
     </Box>
